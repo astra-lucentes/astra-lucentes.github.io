@@ -1,0 +1,15 @@
+.copy-button {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+
+  line-height: 0;
+  cursor: pointer;
+
+  &+.tooltip {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+  }
+}

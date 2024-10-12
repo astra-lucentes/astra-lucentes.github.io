@@ -1,0 +1,9 @@
+.tooltip {
+    font-size: 0.85rem;
+
+    border-radius: 0.25rem;
+    padding: 0.25rem 0.5rem;
+
+    background: var(--tooltip-background);
+    filter: drop-shadow(0 0.2rem 0.25rem color-mix(in oklab, var(--shadow) 25%, transparent));
+}

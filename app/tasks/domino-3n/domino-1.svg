@@ -1,0 +1,18 @@
+<svg width="804" height="66" viewBox="0 0 804 66" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <rect x="1" y="1" width="170.667" height="64" fill="#EEEEEE" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M191.212 33.2727V30.8182H205.212V33.2727H191.212ZM191.212 40V37.5455H205.212V40H191.212Z" fill="black"/>
+    <rect x="225.667" y="22.3334" width="21.3333" height="42.6667" transform="rotate(-90 225.667 22.3334)" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="225.667" y="43.6667" width="21.3333" height="42.6667" transform="rotate(-90 225.667 43.6667)" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="225.667" y="65.0001" width="21.3333" height="42.6667" transform="rotate(-90 225.667 65.0001)" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="268.333" y="1.00006" width="128" height="64" fill="#EEEEEE" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M421.606 42.9091V27.9091H424.152V42.9091H421.606ZM415.379 36.6818V34.1364H430.379V36.6818H415.379Z" fill="black"/>
+    <rect x="450.333" y="1" width="21.3333" height="42.6667" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="450.333" y="65.0001" width="21.3333" height="42.6667" transform="rotate(-90 450.333 65.0001)" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M471.667 1.00006H599.667V65.0001H493V43.6667H471.667V1.00006Z" fill="#EEEEEE" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M624.939 42.9091V27.9091H627.485V42.9091H624.939ZM618.712 36.6818V34.1364H633.712V36.6818H618.712Z" fill="black"/>
+    <rect width="21.3333" height="42.6667" transform="matrix(1 0 0 -1 653.667 65)" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect width="21.3333" height="42.6667" transform="matrix(-4.37114e-08 1 1 4.37114e-08 653.667 1)" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M675 65H803V0.999998H696.333V22.3333H675V65Z" fill="#EEEEEE" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>
+    
