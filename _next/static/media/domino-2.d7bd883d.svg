@@ -1,0 +1,13 @@
+<svg width="601" height="66" viewBox="0 0 601 66" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 1H171.667V65H22.3333V43.6667H1V1Z" fill="#EEEEEE" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M191.212 33.2727V30.8182H205.212V33.2727H191.212ZM191.212 40V37.5455H205.212V40H191.212Z" fill="black"/>
+    <rect x="247" y="1" width="128" height="64" fill="#EEEEEE" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="225.667" y="1" width="21.3333" height="42.6667" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M400.273 42.9091V27.9091H402.818V42.9091H400.273ZM394.045 36.6818V34.1364H409.045V36.6818H394.045Z" fill="black"/>
+    <rect x="429" y="22.3334" width="21.3333" height="42.6667" transform="rotate(-90 429 22.3334)" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="429" y="43.6666" width="21.3333" height="42.6667" transform="rotate(-90 429 43.6666)" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <rect x="450.333" y="65" width="21.3333" height="42.6667" transform="rotate(-90 450.333 65)" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d="M471.667 1H599.667V65H493V43.6667H471.667V1Z" fill="#EEEEEE" stroke="black" stroke-width="1.6" stroke-linejoin="round"/>
+</svg>
+    
