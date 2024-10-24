@@ -8,7 +8,12 @@ import {CopyButton} from "@/kit/Elements"
 
 const InternalCode = memo(({language, code}) => {
   const grammar = grammars[language]
-  const html = language ? highlight(tokenize(code, grammar)) : code
+  let html = language ? highlight(tokenize(code, grammar)) : code
+
+  if (language == 'pseudocode')
+    html = html
+      .replaceAll('<span class="operator">^</span><span class="operator">-</span><span class="number">1</span>', '<sup>-1</sup>')
+      .replaceAll(/(\s|\n)<span class=\"operator\">\*<\/span>(\S.*?\S)<span class=\"operator\">\*<\/span>(\s|\n)/g, '$1<b>$2</b>$3')
 
   return (
     <code
@@ -44,12 +49,12 @@ export const HTTPStatus = ({status, reason}) => {
     status < 200
       ? "info"
       : status < 300
-      ? "success"
-      : status < 400
-      ? "redirect"
-      : status < 500
-      ? "client-error"
-      : "server-error"
+        ? "success"
+        : status < 400
+          ? "redirect"
+          : status < 500
+            ? "client-error"
+            : "server-error"
 
   return (
     <code className="http-status">

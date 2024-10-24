@@ -8,9 +8,21 @@ code {
   cursor: text;
 
   &.language-pseudocode {
+    & b {
+      font-weight: 800;
+    }
+
     & .keyword {
       font-weight: 800;
       color: black
+    }
+
+    & .abstract-type {
+      color: #39b977;
+    }
+
+    & .soft-keyword {
+      color: rgb(43, 158, 203)
     }
 
     & .special-number,
@@ -67,7 +79,7 @@ code {
     }
 
     & .type {
-      color: #ad0192
+      color: #ad0162
     }
 
     & .object {

@@ -1,0 +1,8 @@
+.tab-list {
+    padding: 0 1.25rem;
+    margin: 0 0 0.45rem;
+
+    display: flex;
+    gap: 0.5rem;
+
+}

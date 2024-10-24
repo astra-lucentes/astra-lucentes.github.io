@@ -1,9 +1,17 @@
-import { Article } from "@/kit/Layout";
+import {Codeblock} from "@/kit/Code"
+import "./layout.css"
+
+import {Article} from "@/kit/Layout"
 
 export default function Layout({children}) {
   return (
     <>
-      <Article>{children}</Article>
+      <div className="task-layout">
+        {children}
+        {/* <div className="solution-code">
+          <Codeblock>{`helloworld\n\n\n\n\n\n\n`}</Codeblock>
+        </div> */}
+      </div>
     </>
   )
 }

@@ -143,17 +143,17 @@ def solution(n):
             <Math>f(n)</Math>.
           </P>
           <P>
-            Будем решать рекуррентное соотношение через матрицы. Функция <Math>f(n)</Math> зависит от двух предшествующих. Найдем такую матрицу <Math>A</Math>, что <Math>{`A \\cdot \\pmatrix{f(n)\\\\f(n+2)} = \\pmatrix{f(n+2)\\\\f(n+4)}`}</Math>
+            Будем решать рекуррентное соотношение через матрицы. Функция <Math>f(n)</Math> зависит от двух предшествующих. Найдем такую матрицу <Math>A</Math>, что <Math>{`A \\cdot \\pmatrix{f(n) \\\\ f(n+2)} = \\pmatrix{f(n+2) \\\\ f(n+4)}`}</Math>
           </P>
           <Display>
-            {`\\pmatrix{a&b\\\\c&d} \\cdot \\pmatrix{f(n)\\\\f(n+2)} = ` +
+            {`\\pmatrix{a&b \\\\ c&d} \\cdot \\pmatrix{f(n) \\\\ f(n+2)} = ` +
               `\\pmatrix{a \\cdot f(n) + b \\cdot f(n+2) \\\\ c \\cdot f(n) + d \\cdot f(n+2)} = ` +
-              `\\pmatrix{f(n+2)\\\\4 \\cdot f(n+2) - f(n)} = \\pmatrix{f(n+2)\\\\f(n+4)}`}
+              `\\pmatrix{f(n+2) \\\\ 4 \\cdot f(n+2) - f(n)} = \\pmatrix{f(n+2) \\\\ f(n+4)}`}
           </Display>
           <P>
-            Отсюда получаем, что <Math>{`A = \\pmatrix{0&1\\\\-1&4}`}</Math>.
+            Отсюда получаем, что <Math>{`A = \\pmatrix{0&1 \\\\ -1&4}`}</Math>.
             Значит,{" "}
-            <Math>{`\\pmatrix{f(n)\\\\f(n+2)} = \\pmatrix{0&1\\\\-1&4}^{n-1} \\cdot \\pmatrix{1\\\\3}`}</Math>
+            <Math>{`\\pmatrix{f(n) \\\\ f(n+2)} = \\pmatrix{0&1 \\\\ -1&4}^{n-1} \\cdot \\pmatrix{1\\\\3}`}</Math>
           </P>
           <P>
             Ответ на задачу -- верхний элемент полученного вектора. Степень матрицы находится за <Math>O(\log n)</Math>.

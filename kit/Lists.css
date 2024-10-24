@@ -1,0 +1,48 @@
+ol {
+  padding: 0 2.375rem;
+  margin: 0 0 1.5rem;
+
+  page-break-inside: avoid;
+
+  &>li::marker {
+    color: var(--accent);
+    font-weight: 600;
+  }
+}
+
+ul {
+  padding: 0 1.25rem;
+  margin: 0 0 1rem;
+  list-style: none;
+
+  & p {
+    margin: 0 0 0.5rem;
+  }
+
+  &>li {
+    display: flex;
+
+    &::before {
+      content: "●";
+      color: var(--accent);
+
+      font-size: 0.625rem;
+      line-height: 1.5rem;
+      margin-right: 0.625rem;
+    }
+  }
+}
+
+
+ol.tight,
+ul.tight {
+  &>li {
+    margin-bottom: 0.25rem;
+  }
+}
+
+
+li {
+  margin-bottom: 0.5rem;
+  padding-left: 0.125rem;
+}

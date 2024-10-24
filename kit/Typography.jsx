@@ -1,14 +1,7 @@
 import "./Typography.css"
 
-const replaceSymbols = (children) => {
-  if (typeof children === "string") {
-    return children.replace(/(\s|^)--(\s|$)/g, "$1–$2")
-  } else if (children instanceof Array) {
-    return children.map(replaceSymbols)
-  } else {
-    return children
-  }
-}
+import {replaceSymbols} from "./utils"
+
 
 export const Section = ({children}) => <section>{children}</section>
 
@@ -19,3 +12,11 @@ export const P = ({children}) => <p>{replaceSymbols(children)}</p>
 export const Par = ({children}) => <div className="par">{children}</div>
 
 export const Weak = ({children}) => <span className="weak">{children}</span>
+export const Decl = ({children}) => <span className="decl">{children}</span>
+
+export const TaskHeading = ({title, children}) => (
+  <div className="task-heading">
+    <h1>{title}</h1>
+    <p>{children}</p>
+  </div>
+)
